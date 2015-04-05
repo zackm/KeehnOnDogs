@@ -1,19 +1,25 @@
-nav.keehn-nav {
+nav.navbar.keehn-nav {
   border-top: 25px solid $nav-dark-color;
   border-radius: 0px;
 
   background-color: $nav-light-color;
   color: white;
 
-  .navbar-brand {
+  a.navbar-brand {
     background-color: $logo-primary;
     color: $background-color;
     position: relative;
     top: -25px;
-    // padding: 15px 20px;
-    display: inline-block;
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-bottom: -26px;
     text-transform: none;
+    font-size: 1.6em;
+    padding-bottom: 80px;
+  }
+
+  .collapse.navbar-collapse {
+    margin-left: 50px;
+    // Adjust this
   }
 
   .navbar-toggle {
@@ -26,9 +32,22 @@ nav.keehn-nav {
     }
   }
 
+  $pawWidth: 36px;
+  $pawHeight: 28px;
+  .paw {
+    background: url('/images/paw.png') no-repeat 0px 0px;
+    width: $pawWidth;
+    height: $pawHeight;
+    background-size: $pawWidth $pawHeight;
+    margin: 0 auto;
+    margin-bottom: 2px;
+  }
+
   li a {
     color: white;
     text-transform: uppercase;
+    font-weight: normal;
+    padding: 20px 10px;
 
     &:hover {
       color: $background-color;
