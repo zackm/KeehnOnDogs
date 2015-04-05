@@ -1,0 +1,54 @@
+nav.keehn-nav {
+  border-top: 25px solid $nav-dark-color;
+  border-radius: 0px;
+
+  background-color: $nav-light-color;
+  color: white;
+
+  .navbar-brand {
+    background-color: $logo-primary;
+    color: $background-color;
+    position: relative;
+    top: -25px;
+    // padding: 15px 20px;
+    display: inline-block;
+    margin-left: 50px;
+    text-transform: none;
+  }
+
+  .navbar-toggle {
+    border-color: $nav-dark-color;
+    border-width: 2px;
+    background-color: lighten($nav-light-color, 15%);
+
+    .icon-bar {
+      background-color: $nav-dark-color;
+    }
+  }
+
+  li a {
+    color: white;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $background-color;
+      background-color: lighten($nav-light-color, 10%);
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+
+  li.dropdown.open a {
+    background-color: lighten($nav-light-color, 10%);
+  }
+
+  .dropdown-menu {
+    background-color: lighten($nav-light-color, 20%);
+
+    a {
+      &:hover {
+        color: $nav-light-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+html, body {
+  font-family: 'Cabin', Arial, sans-serif;
+}
+
+
+a {
+  color: $nav-dark-color;
+
+  &:hover {
+    color: $nav-light-color;
+  }
+}
