@@ -47,6 +47,7 @@ nav.navbar.keehn-nav {
     color: white;
     text-transform: uppercase;
     font-weight: normal;
+    padding: 19px 15px 20px 15px;
 
     &:hover {
       color: $background-color;
@@ -56,16 +57,15 @@ nav.navbar.keehn-nav {
     }
   }
 
-  li.dropdown.open a {
-    background-color: lighten($nav-light-color, 10%);
-  }
-
   .dropdown-menu {
-    background-color: lighten($nav-light-color, 20%);
+    background-color: lighten($nav-light-color, 10%);
 
     a {
+      padding: 3px 20px;
+
       &:hover {
-        color: $nav-light-color;
+        color: $background-color;
+        background-color: lighten($nav-light-color, 20%);
       }
     }
   }
