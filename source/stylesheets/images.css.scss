@@ -1,0 +1,11 @@
+
+.testimonial-img {
+  &.pull-left {
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+
+  &.pull-right {
+    padding-left: 8px;
+  }
+}
