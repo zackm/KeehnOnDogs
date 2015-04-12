@@ -37,14 +37,15 @@ title: Keehn On Dogs
         %li
           %a{:href => ""} BOARD & TRAIN/BOARDING
 
-  .col-sm-7
-    .slider.hero-img
-      %div
-        %img{:src => "/images/sit.png", :alt => ""}
-      %div
-        %img{:src => "/images/stay.png", :alt => ""}/
-      %div
-        %img{:src => "/images/good_dog.png", :alt => ""}/
+  .col-sm-8
+    .carousel.slide.hero-img{:'data-ride' => 'carousel', :'data-interval' => 4000}
+      .carousel-inner{:role => 'listbox'}
+        .item.active
+          %img{:src => "/images/sit.png", :alt => ""}
+        .item
+          %img{:src => "/images/stay.png", :alt => ""}/
+        .item
+          %img{:src => "/images/good_dog.png", :alt => ""}/
 
     %div
       Contact JUDY KEEHN for a free assessment regarding the type of training that will best suit you and your dog.
