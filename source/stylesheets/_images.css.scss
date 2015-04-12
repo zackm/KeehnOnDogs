@@ -17,4 +17,7 @@
 .hero-img {
   margin-top: -20px;
   padding-bottom: 15px;
+  &.extra-pad {
+    padding-left: 30px;
+  }
 }
