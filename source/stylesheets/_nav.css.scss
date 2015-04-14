@@ -15,6 +15,10 @@ nav.navbar.keehn-nav {
     text-transform: none;
     font-size: 1.6em;
     padding-bottom: 70px;
+
+    &:hover {
+      background-color: lighten($logo-primary, 5%);
+    }
   }
 
   .collapse.navbar-collapse {
@@ -55,6 +59,10 @@ nav.navbar.keehn-nav {
       cursor: pointer;
       text-decoration: none;
     }
+  }
+
+  li.dropdown.open .dropdown-toggle {
+    background-color: lighten($nav-light-color, 10%);
   }
 
   .dropdown-menu {
