@@ -5,9 +5,10 @@ html, body {
 
 a {
   color: $nav-dark-color;
+  text-decoration: underline;
 
   &:hover {
-    color: $nav-light-color;
+    color: lighten($nav-dark-color, 35%);
   }
 }
 
