@@ -36,15 +36,14 @@ nav.navbar.keehn-nav {
     }
   }
 
-  $pawWidth: 36px;
-  $pawHeight: 28px;
+  $pawWidth: 30px;
+  $pawHeight: 27px;
   .paw {
     background: url('/images/paw.png') no-repeat 0px 0px;
     width: $pawWidth;
     height: $pawHeight;
     background-size: $pawWidth $pawHeight;
-    margin: 0 auto;
-    margin-bottom: 6px;
+    margin: -3px auto 2px auto;
   }
 
   li a {
