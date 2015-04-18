@@ -1,0 +1,82 @@
+nav.navbar.keehn-nav {
+  border-top: 25px solid $nav-dark-color;
+  border-radius: 0px;
+
+  background-color: $nav-light-color;
+  color: white;
+  a {
+    text-decoration: none;
+
+    &.navbar-brand {
+      background-color: $logo-primary;
+      color: $background-color;
+      position: relative;
+      top: -25px;
+      margin-left: 40px;
+      margin-bottom: -26px;
+      text-transform: none;
+      font-size: 2em;
+      padding-bottom: 70px;
+
+      &:hover {
+        background-color: lighten($logo-primary, 5%);
+      }
+    }
+  }
+
+  .collapse.navbar-collapse {
+    margin-left: 50px;
+    // Adjust this
+  }
+
+  .navbar-toggle {
+    border-color: $nav-dark-color;
+    border-width: 2px;
+    background-color: lighten($nav-light-color, 15%);
+
+    .icon-bar {
+      background-color: $nav-dark-color;
+    }
+  }
+
+  $pawWidth: 30px;
+  $pawHeight: 27px;
+  .paw {
+    background: url('/images/paw.png') no-repeat 0px 0px;
+    width: $pawWidth;
+    height: $pawHeight;
+    background-size: $pawWidth $pawHeight;
+    margin: -3px auto 2px auto;
+  }
+
+  li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 19px 15px 20px 15px;
+
+    &:hover {
+      color: $background-color;
+      background-color: lighten($nav-light-color, 10%);
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+
+  li.dropdown.open .dropdown-toggle {
+    background-color: lighten($nav-light-color, 10%);
+  }
+
+  .dropdown-menu {
+    background-color: lighten($nav-light-color, 10%);
+
+    a {
+      padding: 3px 20px;
+
+      &:hover {
+        color: $background-color;
+        background-color: lighten($nav-light-color, 20%);
+      }
+    }
+  }
+}

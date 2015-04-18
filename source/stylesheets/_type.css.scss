@@ -1,0 +1,18 @@
+html, body {
+  font-family: 'Cabin', Arial, sans-serif;
+}
+
+
+a {
+  color: $nav-dark-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: lighten($nav-dark-color, 35%);
+  }
+}
+
+.headline {
+  font-size: 0.95em;
+  color: #5d4432;
+}
