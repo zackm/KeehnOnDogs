@@ -3,41 +3,43 @@ title: Instruction / Consulting / Groups
 ---
 
 .container-fluid
-  .col-sm-4
-    = partial "headline"
-    %b PRIVATE IN-HOME INSTRUCTION
-    %div
-      Whether you're looking for obedience training or solutions to serious behavioral problems, private lessons are available. However, certain behavioral issues require that a little preliminary training is accomplished with the owner at home prior to working with distractions in public. Setting up a solid foundation will help you with control, and create a good working relationship between you and your dog
-    %br
-    %b BEHAVIORAL PROBLEM CONSULTING
-    %div
-      Serious dog problems such as fearfulness, displays of aggression, separation anxiety, barking, house soiling, destructive or escape behaviors are addressed in an in-home consultation. The average lesson is 1.5-2 hours, which includes an in-depth Q & A and discussion. A training plan will be customized for you, and Judy will demonstrate the training exercises. She will make sure you understand the training and are able to do the exercises correctly before leaving. A summary of the lesson will be emailed to you, along with related handouts.
+  .row
+    .col-md-4
+      = partial "headline"
+      %b PRIVATE IN-HOME INSTRUCTION
+      %div
+        Whether you're looking for obedience training or solutions to serious behavioral problems, private lessons are available. However, certain behavioral issues require that a little preliminary training is accomplished with the owner at home prior to working with distractions in public. Setting up a solid foundation will help you with control, and create a good working relationship between you and your dog
+      %br
+      %b BEHAVIORAL PROBLEM CONSULTING
+      %div
+        Serious dog problems such as fearfulness, displays of aggression, separation anxiety, barking, house soiling, destructive or escape behaviors are addressed in an in-home consultation. The average lesson is 1.5-2 hours, which includes an in-depth Q & A and discussion. A training plan will be customized for you, and Judy will demonstrate the training exercises. She will make sure you understand the training and are able to do the exercises correctly before leaving. A summary of the lesson will be emailed to you, along with related handouts.
 
-  .col-sm-8
-    %img.hero-img.extra-pad.img-responsive{:src => "/images/in_home.png", :alt => ""}/
+    .col-md-8
+      %img.hero-img.extra-pad.img-responsive{:src => "/images/in_home.png", :alt => ""}/
 
-    .container-fluid
-      .col-sm-8
-        = partial "contact"
-        
-        %br
-        %div
-          %b GROUP TRAINING CLASSES 
-          %div
-            For information about class dates, registration and appointments, call Judy Keehn at
-            %b
-              %a{:href => "tel:760-945-8238"} 760-945-8238
-
-          %br
-          %b TRAINING LOCATIONS:
-          %div
-            %a{:href => "http://alohaanimalhospital.com/"}
-              Aloha Animal Hospital, Vista
+      .container-fluid
+        .row
+          .col-md-8
+            = partial "contact"
+            
             %br
-            %a{:href => "http://missionanimal.com/"}
-              Mission Animal & Bird Hospital, Oceanside
-      .col-sm-4.text-right
-        %img{:src => "/images/aloha.png", :alt => ""}/
-        %br
-        %br
-        %img{:src => "/images/mission.png", :alt => ""}/
+            %div
+              %b GROUP TRAINING CLASSES 
+              %div
+                For information about class dates, registration and appointments, call Judy Keehn at
+                %b
+                  %a{:href => "tel:760-945-8238"} 760-945-8238
+
+              %br
+              %b TRAINING LOCATIONS:
+              %div
+                %a{:href => "http://alohaanimalhospital.com/"}
+                  Aloha Animal Hospital, Vista
+                %br
+                %a{:href => "http://missionanimal.com/"}
+                  Mission Animal & Bird Hospital, Oceanside
+          .col-md-4.text-right
+            %img{:src => "/images/aloha.png", :alt => ""}/
+            %br
+            %br
+            %img{:src => "/images/mission.png", :alt => ""}/
