@@ -1,8 +1,8 @@
 Keehn On Dogs
 ===========
 
-* Uses middleman to compile templates and stylesheets
-* Uses surge.sh to deploy
+* Uses [middleman](https://middlemanapp.com/) to compile templates and stylesheets
+* Uses [surge](surge.sh) to deploy
 
 ## During Development
 
